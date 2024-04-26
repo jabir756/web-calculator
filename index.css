@@ -3,7 +3,6 @@
   padding: 0%;
 }
 .calculator {
-  height:600px;
   width: 300px;
   margin: 0 auto;
   border: 2px solid black;
@@ -21,10 +20,11 @@
 }
 
 .keys {
-  border: 1px solid;
+  border: 2px solid ;
+  height: 350px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
 }
 
 button {
